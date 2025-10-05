@@ -143,3 +143,37 @@ h2 {
     display: flex;
     flex-direction: column;
 }
+
+/* Página de Detalhes */
+.detalhe-img {
+    max-height: 500px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.detalhe-titulo {
+    color: var(--cor-azul);
+    font-weight: bold;
+}
+
+.detalhe-info p {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.btn-voltar {
+    background-color: var(--cor-roxa);
+    color: white;
+    transition: background-color 0.3s;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+}
+
+.btn-voltar:hover {
+    background-color: #520a86;
+    color: white;
+}
