@@ -91,6 +91,11 @@ h2 {
     margin-top: 0;
 }
 
+.card-img-top {
+    height: 350px;
+    object-fit: cover;
+}
+
 /* Seção de Contato */
 .contato {
     background-color: var(--cor-azul);
