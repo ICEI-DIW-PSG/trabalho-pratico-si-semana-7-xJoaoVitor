@@ -13,32 +13,44 @@ Leia o enunciado completo no Canvas.
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: João Vítor Rodrigues da Silva
+- Matricula: 905416
+- Proposta de projeto escolhida: Igreja
+- Breve descrição sobre seu projeto: Site para a igreja onde eu congrego.
 
 ## Print da Home-Page
 
 <<  COLOQUE A IMAGEM AQUI >>
+![Home-Page](tela1.png)
+![Home-Page](tela2.png)
 
 ## Print da página de detalhes do item
 
 <<  COLOQUE A IMAGEM AQUI >>
+![Detalhes 1](tela3.png)
+![Detalhes 2](tela4.png)
 
 ## Cole aqui abaixo a estrutura JSON utilizada no app.js
 
 ```javascript
-const dados = [
+const eventos = [
   {
-    "id": 1,
-    "titulo": "Prefeitura Lança Plano de Mobilidade Urbana",
-    "descricao": "Novo plano do transporte público.",
-    "conteudo": "A Prefeitura apresentou nesta segunda-feira um novo plano de mobilidade urbana.",
-    "categoria": "Cidades",
-    "autor": "Joana Ribeiro",
-    "data": "2025-03-30",
-    "imagem": "img/mobilidade.jpg"
+    id: 1,
+    titulo: "Santa Ceia do Senhor",
+    data: "Todo primeiro domingo do mês.",
+    descricaoLonga: "A santa ceia é um momento de profunda comunhão e reflexão, onde relembramos o sacrifício de Jesus Cristo por nós. Participe conosco deste ato de fé e adoração. Todos são bem-vindos para celebrar a nova aliança no sangue de Cristo.",
+    imagem: "img/santaceia.jpg",
+    horario: "19:00",
+    local: "Igreja Betesda"
+  },
+  {
+    id: 2,
+    titulo: "Batismo nas Águas",
+    data: "15 de Novembro de 2025",
+    descricaoLonga: "O batismo é um passo fundamental na jornada cristã, simbolizando a morte para o pecado e a ressurreição para uma nova vida em Jesus. Será um dia de grande festa e celebração. Se você deseja ser batizado, entre em contato com a liderança da igreja.",
+    imagem: "img/batismo.jpg",
+    horario: "09:00",
+    local: "Sítio da Volta"
   }
-]
+];
 ```
